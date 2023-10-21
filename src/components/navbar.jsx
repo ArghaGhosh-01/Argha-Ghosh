@@ -3,7 +3,7 @@ import React from "react";
 function navbar() {
     return (
         <>
-            <div class="sticky w-full bg-gradient-to-r from-violet-600 to-purple-900">
+            <div class="sticky top-0 w-full bg-purple-900 z-50">
                 <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8 m-0 h-20">
                     <div class="inline-flex items-center space-x-2">
                         <span>

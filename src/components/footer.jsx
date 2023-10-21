@@ -4,7 +4,7 @@ import Instagram from '../assets/instagram.png'
 
 export function footer() {
     return (
-        <section className="relative overflow-hidden bg-gradient-to-r from-violet-600 to-purple-900 py-8">
+        <section className="relative overflow-hidden bg-purple-900 py-8">
             <div className="container relative z-10 mx-auto px-4">
                 <div className="-m-8 flex flex-wrap items-center justify-center">
                     <div className="w-auto p-8">
