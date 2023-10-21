@@ -1,12 +1,13 @@
 import './App.css'
 import Navbar from './components/navbar';
 import Footer from './components/footer';
+import Uppersection from './components/uppersection';
 
 function App() {
   return (
     <div>
     <Navbar />
-    <h1>Upper body</h1>
+    <Uppersection />
     <Footer />
     </div>
   )
