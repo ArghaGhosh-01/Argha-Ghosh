@@ -3,14 +3,21 @@ import Navbar from './components/navbar';
 import Footer from './components/footer';
 import Uppersection from './components/uppersection';
 import Skills from "./components/skills";
+import TechIcons from "./components/techIcons";
 
 function App() {
   return (
     <div>
-    <Navbar />
-    <Uppersection />
-    <Skills/>
-    <Footer />
+      <Navbar />
+      <Uppersection />
+      <Skills />
+      <div className='m-12 font-semibold'>
+        <h1 className='flex items-center justify-center text-2xl font-bold border-b-4 border-black'>
+          TECHNOLOGIES
+        </h1>
+        <TechIcons />
+      </div>
+      <Footer />
     </div>
   )
 }
