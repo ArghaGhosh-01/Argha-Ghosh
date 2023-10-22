@@ -12,7 +12,7 @@ function App() {
       <Uppersection />
       <Skills />
       <div className='m-12 font-semibold'>
-        <h1 className='flex items-center justify-center text-2xl font-bold border-b-4 border-black'>
+        <h1 className='flex items-center justify-center text-2xl font-bold text-white'>
           TECHNOLOGIES
         </h1>
         <TechIcons />
