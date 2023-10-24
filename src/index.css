@@ -2,8 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-
-/* body
+.card_glow:hover
 {
-  background-color: #530086;
-} */
+  scale: 1.05;
+
+}
+
+
+.icon_glow:hover
+{
+  scale: 1.2;
+
+}
