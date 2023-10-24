@@ -33,7 +33,7 @@ function particlebg () {
           opacity: {
             anim: {
               enable: true,
-              speed: 3,
+              speed: 2,
               opacity_min: 0.05,
             },
           },
