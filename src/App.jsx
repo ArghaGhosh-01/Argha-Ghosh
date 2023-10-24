@@ -4,10 +4,12 @@ import Footer from './components/footer';
 import Uppersection from './components/uppersection';
 import Skills from "./components/skills";
 import TechIcons from "./components/techIcons";
+import Particles from './components/particlebg';
 
 function App() {
   return (
     <div>
+    <Particles />
       <Navbar />
       <Uppersection />
       <Skills />
