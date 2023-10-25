@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactForm = () => {
     return (
-            <form className="bg-opacity-50 backdrop-filter backdrop-blur-lg shadow-md px-8 pt-6 pb-8 mb-4 rounded-lg m-auto border border-white form_glow">
+            <form className="bg-opacity-50 backdrop-filter backdrop-blur-lg shadow-md px-8 pt-6 pb-8 mb-4 rounded-lg mx-auto border border-white form_glow">
                 <div className="mb-4">
                     <label className="block text-green-500 text-sm font-bold mb-2" htmlFor="name">
                         Name
