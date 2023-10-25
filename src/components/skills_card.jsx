@@ -2,7 +2,7 @@ import React from "react"
 
 function Card() {
     return(
-        <div className="bg-opacity-50 backdrop-filter backdrop-blur-lg p-4 shadow-md rounded-md border border-white m-4 w-96 card_glow">
+        <div className="bg-opacity-50 backdrop-filter backdrop-blur-lg p-4 shadow-md rounded-md border border-white m-4 w-96 card_glow cursor-pointer">
             <h3 className="text-lg font-semibold mb-2 text-white">HTML</h3>
             <div className="relative pt-1">
                 <div className="flex mb-2 items-center justify-between">

@@ -2,14 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 .card_glow:hover
 {
   scale: 1.05;
   transition-duration: 0.5s;
   box-shadow: 0 0 30px rgba(0, 255, 0, 0.8);
+  cursor: pointer;
+  /* transition-timing-function: ease-in-out; */
 
 }
 
+.form_glow:hover
+{
+  /* scale: 1.05; */
+  transition-duration: 0.5s;
+  box-shadow: 0 0 30px rgba(0, 255, 0, 0.8);
+  cursor: pointer;
+  /* transition-timing-function: ; */
+
+}
 
 .icon_glow:hover
 {

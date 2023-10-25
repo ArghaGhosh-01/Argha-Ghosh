@@ -27,7 +27,7 @@ function navbar() {
                             <li>
                                 <a
                                     href="#"
-                                    class="text-sm font-semibold text-white hover:text-black hover:bg-white px-4 py-2"
+                                    class="text-sm font-semibold text-white hover:text-green-400 hover:border-b-2 hover:border-b-green-400 px-4 py-2"
                                 >
                                     Home
                                 </a>
@@ -35,7 +35,7 @@ function navbar() {
                             <li>
                                 <a
                                     href="#"
-                                    class="text-sm font-semibold text-white hover:text-black hover:bg-white px-4 py-2"
+                                    class="text-sm font-semibold text-white hover:text-green-400 hover:border-b-2 hover:border-b-green-400 px-4 py-2"
                                 >
                                     About
                                 </a>
@@ -43,7 +43,7 @@ function navbar() {
                             <li>
                                 <a
                                     href="#"
-                                    class="text-sm font-semibold text-white hover:text-black hover:bg-white px-4 py-2"
+                                    class="text-sm font-semibold text-white hover:text-green-400 hover:border-b-2 hover:border-b-green-400 px-4 py-2"
                                 >
                                     Contact
                                 </a>
