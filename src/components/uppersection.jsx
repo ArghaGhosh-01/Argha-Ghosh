@@ -11,7 +11,9 @@ function uppersection() {
             </div>
             <div className="w-full md:w-2/5 p-0 h-40 flex justify-center my-4 text-3xl ">
                 <div className="bg-opacity-50 backdrop-filter backdrop-blur-lg">
-                <div className="text-white flex justify-center font-light ">Hi there " "</div>
+                <div className="text-white flex justify-center font-light ">Hi there !<span className="wave ml-2" role="img">
+                  👋🏻
+                </span></div>
                 <div className="text-white font-light">I am <span className="text-green-500 ml-11 font-mono font-bold">ARGHA GHOSH</span> </div>
                     <div className="text-green-500 flex justify-center text-xl font-mono font-bold">
                         <Type />
