@@ -14,6 +14,11 @@
 
 }
 
+.button_visit
+{
+  box-shadow: 0 0 20px rgba(0, 255, 0, 0.8);
+}
+
 .form_glow:hover
 {
   /* scale: 1.05; */
@@ -35,3 +40,4 @@
 {
   box-shadow: 0 0 30px green;
 }
+
