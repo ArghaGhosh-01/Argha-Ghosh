@@ -20,8 +20,8 @@ function uppersection() {
                     </div>
                     <div className="flex justify-center my-4">
 
-                    <button className="bg-green-500 text-white text-lg font-semibold mx-3 px-2 rounded-sm button_visit">Visit Github</button>
-                    <button className="bg-green-500 text-white text-lg font-semibold mx-3 px-2 rounded-sm button_visit">View Resume</button>
+                    <button className="bg-green-500 text-white text-lg font-semibold mx-3 px-2 rounded-md button_visit">Visit Github</button>
+                    <button className="bg-green-500 text-white text-lg font-semibold mx-3 px-2 rounded-md button_visit">View Resume</button>
                     </div>
                 </div>
             </div>

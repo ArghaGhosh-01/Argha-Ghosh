@@ -74,12 +74,12 @@ function Navbar() {
                     </div>
                 </div>
                 {menuOpen && (
-                    <div className="lg:hidden bg-white p-4">
+                    <div className="lg:hidden bg-green-950 p-4">
                         <ul className="flex flex-col space-y-2">
                             <li>
                                 <a
                                     href="#home"
-                                    className="text-sm font-semibold text-gray-700 hover:text-green-400"
+                                    className="text-sm font-semibold text-white hover:text-green-400"
                                     onClick={toggleMenu}
                                 >
                                     Home
@@ -88,7 +88,7 @@ function Navbar() {
                             <li>
                                 <a
                                     href="#about"
-                                    className="text-sm font-semibold text-gray-700 hover:text-green-400"
+                                    className="text-sm font-semibold text-white hover:text-green-400"
                                     onClick={toggleMenu}
                                 >
                                     About
@@ -97,7 +97,7 @@ function Navbar() {
                             <li>
                                 <a
                                     href="#contact"
-                                    className="text-sm font-semibold text-gray-700 hover:text-green-400"
+                                    className="text-sm font-semibold text-white hover:text-green-400"
                                     onClick={toggleMenu}
                                 >
                                     Contact

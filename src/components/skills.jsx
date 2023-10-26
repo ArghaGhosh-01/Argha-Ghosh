@@ -7,10 +7,10 @@ function skills() {
             <span className="bg-green-400 rounded-full w-60 h-60 opacity-10 absolute -right-0 -top-28 circle"></span>
             <span className="bg-green-400 rounded-full w-96 h-96 opacity-10 absolute right-0 bottom-60 circle"></span>
             <div class="flex flex-wrap items-center justify-center">
-                <Card />
-                <Card />
-                <Card />
-                <Card />
+                <Card topic="Frontend" status="Intermediate" percentage="70"  />
+                <Card  topic="Designing" status="Advanced" percentage="80" />
+                <Card topic="WEB development" status="Intermediate" percentage="80"  />
+                <Card topic="APP development" status="beginner" percentage="40"  />
      
             </div>
         </div>
