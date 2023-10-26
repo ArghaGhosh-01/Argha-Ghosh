@@ -2,7 +2,7 @@ import React from 'react'
 
 function about() {
     return (
-        <div className='bg-opacity-50 backdrop-filter backdrop-blur-lg shadow-md mb-4 rounded-lg m-11 form_glow text-white border border-white'>
+        <div className='bg-opacity-50 backdrop-filter backdrop-blur-lg shadow-md mb-4 rounded-lg lg:mx-96 mx-16 text-white border border-white'>
             <div>
             </div>
             <div className='flex items-center justify-center text-xl font-mono font-bold text-white  mt-0 bg-slate-500'>
@@ -12,8 +12,16 @@ function about() {
                 ABOUT
             </div>
             <div className='flex'>
-            <div className="text-green-600 font-mono font-extrabold text-md mx-8"> ~ git (main) : </div>
-            <span className='text-white'>git log</span>
+                <div className="text-green-600 font-mono font-extrabold text-md ml-8"> ~ git (main) : </div>
+                <span className='text-white'>git log</span>
+            </div>
+            <div className='flex'>
+                <div className="text-green-600 font-mono font-extrabold text-md ml-8"> ~ git (main) : </div>
+                <span className='text-white'>git log</span>
+            </div>
+            <div className='flex'>
+                <div className="text-green-600 font-mono font-extrabold text-md ml-8"> ~ git (main) : </div>
+                <span className='text-white'>git log</span>
             </div>
         </div>
     )
