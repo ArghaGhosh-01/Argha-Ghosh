@@ -10,16 +10,16 @@ function uppersection() {
         <span className="bg-green-400 rounded-full w-44 h-44 opacity-10 absolute top-28 circle"></span>
       </div>
       <div className="w-full md:w-2/5 p-0 h-40 flex justify-center my-4 text-3xl ">
-        <div className="bg-opacity-50 backdrop-filter backdrop-blur-lg">
+        <div className="bg-opacity-50 backdrop-filter backdrop-blur-lg w-96">
           <div className="text-white flex justify-center font-light ">
             Hi there !
-            <span className="wave ml-2" role="img">
+            <span className="wave-emoji wave ml-2" role="img">
               👋🏻
             </span>
           </div>
-          <div className="text-white font-light">
+          <div className="text-white font-light text-center">
             I am{" "}
-            <span className="text-green-500 ml-11 font-mono font-bold">
+            <span className="text-green-500 ml-9 font-mono font-bold">
               ARGHA GHOSH
             </span>{" "}
           </div>

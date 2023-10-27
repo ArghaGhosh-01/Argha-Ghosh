@@ -8,6 +8,11 @@ function project() {
 
       <div className="flex flex-wrap -mx-4 justify-center lg:mx-20 md:mx-4">
         <ProjectCard/>
+        <ProjectCard/>
+        <ProjectCard/>
+        <ProjectCard/>
+        <ProjectCard/>
+        <ProjectCard/>
       </div>
     </div>
   );
