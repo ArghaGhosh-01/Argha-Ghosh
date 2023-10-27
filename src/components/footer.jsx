@@ -1,17 +1,17 @@
-import React from 'react'
-import GithubLogo from './data/icons_img/github_icon.png'
-import Instagram from './data/icons_img/instagram.png'
+import React from 'react';
 import Icons from "./icons";
+import iconsData from "./data/iconsData";
 
-export function footer() {
+export function Footer() {
     return (
-        <section className=" bottom-0 overflow-hidden bg-black py-8 bg-opacity-50 backdrop-filter backdrop-blur-lg">
+        <section className="bottom-0 overflow-hidden bg-black py-8 bg-opacity-50 backdrop-filter backdrop-blur-lg">
             <div className="container relative z-10 mx-auto px-4">
                 <div className="-m-8 flex flex-wrap items-center justify-center">
                     <div className="w-auto p-8">
                         <div className="-m-1.5 flex flex-wrap">
-                            <Icons icon={GithubLogo} link="" />
-                            <Icons icon={Instagram} link="" />
+                            {iconsData.map((data, index) => (
+                              <Icons key={index} icon={data.icon} link={data.link} />
+                            ))}
                         </div>
                     </div>
                 </div>
@@ -21,4 +21,4 @@ export function footer() {
     )
 }
 
-export default footer
+export default Footer;

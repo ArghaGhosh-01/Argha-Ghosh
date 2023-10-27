@@ -45,7 +45,7 @@ const ContactForm = () => {
                     placeholder="Your message here"
                 ></textarea>
             </div>
-            <div className="flex items-center justify-between">
+            <div className="flex items-center justify-center sm:justify-between">
                 <button
                     className="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline "
                     type="button"
