@@ -1,6 +1,6 @@
 import React from 'react'
-import GithubLogo from '../assets/github_icon.png'
-import Instagram from '../assets/instagram.png'
+import GithubLogo from './data/icons_img/github_icon.png'
+import Instagram from './data/icons_img/instagram.png'
 import Icons from "./icons";
 
 export function footer() {
@@ -10,8 +10,8 @@ export function footer() {
                 <div className="-m-8 flex flex-wrap items-center justify-center">
                     <div className="w-auto p-8">
                         <div className="-m-1.5 flex flex-wrap">
-                            <Icons icon={GithubLogo} />
-                            <Icons icon={Instagram} />
+                            <Icons icon={GithubLogo} link="" />
+                            <Icons icon={Instagram} link="" />
                         </div>
                     </div>
                 </div>

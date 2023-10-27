@@ -7,6 +7,7 @@ import TechIcons from "./components/techIcons";
 import Particles from './components/particlebg';
 import About from './components/about'
 import ContactForm from './components/contact';
+import Project from './components/project';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Uppersection />
       <About />
       <Skills />
+      <Project />
       <div className='m-12 font-semibold'>
         <h1 className='flex items-center justify-center text-2xl font-bold text-white'>
           TECHNOLOGIES
