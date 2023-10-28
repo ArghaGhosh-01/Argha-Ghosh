@@ -3,7 +3,7 @@ import React from "react"
 function icons({icon,link})
 {
     return(
-        <div className="w-auto p-1.5">
+        <div className="w-auto p-1.5 cursor-pointer">
                                 <a href={link} target="blank">
                                     <div className="flex h-8 w-8 items-center justify-center  border-gray-300 hover:border-gray-400">
                                         <img src={icon} />
@@ -13,4 +13,4 @@ function icons({icon,link})
     )
 }
 
-export default icons
+export default icons 

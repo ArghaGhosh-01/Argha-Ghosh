@@ -3,20 +3,10 @@
 @tailwind utilities;
 
 
-@keyframes wave {
-  0%, 100% {
-    transform: rotate(0deg);
-  }
-  25% {
-    transform: rotate(20deg);
-  }
-  75% {
-    transform: rotate(-20deg);
-  }
-}
+
 
 .wave-emoji {
-  animation: wave 1s infinite;
+  animation: wave 5ms infinite;
 }
 
 .card_glow:hover
@@ -70,5 +60,5 @@
 }
 
 .wave-emoji {
-  animation: wave 1s infinite;
+  animation: wave 0.7s infinite;
 }

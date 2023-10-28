@@ -15,7 +15,7 @@ export function Footer() {
                         </div>
                     </div>
                 </div>
-                <p className='text-white flex items-center justify-center m-4 bg-opacity-50 backdrop-filter backdrop-blur-lg'>&copy; 2023 Your Company. All Rights Reserved.</p>
+                <p className='text-white flex items-center justify-center m-4 bg-opacity-50 backdrop-filter backdrop-blur-lg text-center'>&copy; 2023 Argha Ghosh All Rights Reserved.</p>
             </div>
         </section>
     )

@@ -25,7 +25,7 @@ function App() {
         <TechIcons />
       </div>
       <div className='m-12 font-semibold'>
-      <h1 className='flex items-center justify-center text-2xl font-bold text-white mb-10'>
+      <h1 className='flex items-center justify-center text-2xl font-bold text-white mb-10 mt-28'>
           CONTACT ME
         </h1>
       <ContactForm />

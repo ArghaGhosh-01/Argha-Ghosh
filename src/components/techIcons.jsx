@@ -4,7 +4,7 @@ import TechIconsSM from "./tech_icon_small";
 
 const TechIcons = () => {
   return (
-    <div className="flex flex-wrap items-center justify-center lg:mx-60 mx-10 my-8">
+    <div className="flex flex-wrap items-center justify-center lg:mx-44 md:mx-6 sm:mx-6 my-8">
       <TechIconsSM
         image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
         name="HTML"
