@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+body{
+  background-color: #00120c;
+}
 
 
 .wave-emoji {
@@ -61,4 +63,9 @@
 
 .wave-emoji {
   animation: wave 0.7s infinite;
+}
+
+.footer{
+
+  background-color: #00120c;
 }
