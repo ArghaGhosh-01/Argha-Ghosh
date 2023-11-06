@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Logo from "./data/icons_img/Logo.png"
 
 function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -12,17 +13,7 @@ function Navbar() {
             <div className="sticky top-0 w-full bg-opacity-50 backdrop-filter backdrop-blur-lg z-50">
                 <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8 m-0 h-20">
                     <div className="inline-flex items-center space-x-2">
-                        <span>
-                            <svg
-                                width="30"
-                                height="30"
-                                viewBox="0 0 50 56"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                {/* Your SVG Path Data */}
-                            </svg>
-                        </span>
+                        
                         <span className="font-bold text-white border border-white rounded-lg p-1">AG</span>
                     </div>
                     <div className="hidden lg:block">
