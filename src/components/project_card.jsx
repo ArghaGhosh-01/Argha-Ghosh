@@ -8,7 +8,7 @@ function ProjectCard({name,description,link,view}) {
         <p className="text-white mb-4 text-center">{description}</p>
         <div className="flex justify-center gap-2">
           <a href={link} target="_blank" rel="noopener noreferrer" className="text-white bg-green-600 border border-green-600 p-2 rounded-md">Code</a>
-          <a href={view} target="_blank" rel="noopener noreferrer" className="text-white bg-green-600 border border-green-600 p-2 rounded-md">Visit</a>
+          <a href={view} target="_blank" rel="noopener noreferrer" className="text-white bg-green-600 border border-green-600 p-2 rounded-md">Demo</a>
         </div>
       </div>
     </div>
