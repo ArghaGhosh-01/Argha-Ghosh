@@ -23,7 +23,7 @@ function Navbar() {
                                 {/* Your SVG Path Data */}
                             </svg>
                         </span>
-                        <span className="font-bold text-white">AG</span>
+                        <span className="font-bold text-white border border-white rounded-lg p-1">AG</span>
                     </div>
                     <div className="hidden lg:block">
                         <ul className="inline-flex space-x-8">
