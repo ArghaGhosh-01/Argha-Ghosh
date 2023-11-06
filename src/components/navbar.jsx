@@ -74,8 +74,8 @@ function Navbar() {
                     </div>
                 </div>
                 {menuOpen && (
-                    <div className="lg:hidden bg-green-950 p-4">
-                        <ul className="flex flex-col space-y-2">
+                    <div className="lg:hidden bg-opacity-50 backdrop-filter backdrop-blur-lg p-4">
+                        <ul className="flex flex-col space-y-2 items-center justify-center">
                             <li>
                                 <a
                                     href="#home"

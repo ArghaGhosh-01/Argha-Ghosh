@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 body{
-  background-color: #000e09;
+  background-color: black;
 }
-
+/* #000e09 */
 
 .wave-emoji {
   animation: wave 5ms infinite;
