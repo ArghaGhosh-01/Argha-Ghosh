@@ -25,10 +25,6 @@ const TechIcons = () => {
         image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
         name="HTML"
       />
-      <TechIconsSM
-        image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-        name="HTML"
-      />
       <img
         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
         className="h-10 m-2 border border-white p-2 rounded-md bg-opacity-50 backdrop-filter backdrop-blur-lg icon_glow"
