@@ -1,124 +1,83 @@
+import html from "./icons_img/html.png"
+
 const techIconsData = [
     {
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      image: html,
       name: "HTML"
     },
     {
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-      name: "HTML"
-    },
-    {
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-      name: "HTML"
-    },
-    {
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-      name: "HTML"
-    },
-    {
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-      name: "HTML"
-    },
-    {
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-      name: "HTML"
-    },
-    {
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-      name: "HTML"
-    },
-    {
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-      name: "HTML"
-    },
-    {
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        image: html,
         name: "HTML"
       },
       {
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        image: html,
         name: "HTML"
       },
       {
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        image: html,
         name: "HTML"
       },
       {
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        image: html,
         name: "HTML"
       },
       {
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        image: html,
         name: "HTML"
       },
       {
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        image: html,
         name: "HTML"
       },
       {
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        image: html,
         name: "HTML"
       },
       {
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        image: html,
         name: "HTML"
       },
       {
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        image: html,
         name: "HTML"
       },
       {
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        image: html,
         name: "HTML"
       },
       {
-          image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-          name: "HTML"
-        },
-        {
-          image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-          name: "HTML"
-        },
-        {
-            image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-            name: "HTML"
-          },
-          {
-            image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-            name: "HTML"
-          },
-          {
-            image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-            name: "HTML"
-          },
-          {
-            image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-            name: "HTML"
-          },
-          {
-            image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-            name: "HTML"
-          },
-          {
-            image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-            name: "HTML"
-          },
-          {
-            image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-            name: "HTML"
-          },
-          {
-            image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-            name: "HTML"
-          },
-          {
-              image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-              name: "HTML"
-            },
-            {
-              image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-              name: "HTML"
-            },
+        image: html,
+        name: "HTML"
+      },
+      {
+        image: html,
+        name: "HTML"
+      },
+      {
+        image: html,
+        name: "HTML"
+      },
+      {
+        image: html,
+        name: "HTML"
+      },
+      {
+        image: html,
+        name: "HTML"
+      },
+      {
+        image: html,
+        name: "HTML"
+      },
+      {
+        image: html,
+        name: "HTML"
+      },
+      {
+        image: html,
+        name: "HTML"
+      },
+      
     // Add more technology icons here...
   ];
 
