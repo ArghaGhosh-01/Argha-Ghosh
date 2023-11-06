@@ -98,4 +98,3 @@ const techIconsData = [
   ];
   
   export default techIconsData;
-  
