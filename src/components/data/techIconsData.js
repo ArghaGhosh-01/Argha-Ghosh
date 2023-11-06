@@ -1,5 +1,6 @@
 import Github from "./icons_img/github_icon.png"
 import Express from "./icons_img/expressjs.png"
+import Vite from "./icons_img/vite.png"
 
 const techIconsData = [
     {
@@ -23,13 +24,21 @@ const techIconsData = [
       name: "JavaScript"
     },
     {
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-      name: "Node.js"
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+        name: "Node.js"
     },
     {
       image: Express,
       name: "Express.js"
     },
+    {
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      name: "React"
+    },
+    {
+        image: Vite,
+        name: "Vite"
+      },
     {
       image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
       name: "MongoDB"
@@ -41,10 +50,6 @@ const techIconsData = [
     {
       image: Github,
       name: "GitHub"
-    },
-    {
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-      name: "React"
     },
     {
       image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
