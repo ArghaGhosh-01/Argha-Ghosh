@@ -9,7 +9,7 @@ function about() {
         <span className="w-3 h-3 bg-red-500 rounded-full absolute left-4"></span>
         <span className="w-3 h-3 bg-yellow-500 rounded-full absolute left-8"></span>
         <span className="w-3 h-3 bg-green-500 rounded-full absolute left-12"></span>
-        TERMINAL
+        <span className="relative right-0">TERMINAL</span>
       </div>
       <div className="my-6">
         {aboutData.map((data, index) => (
