@@ -4,7 +4,7 @@ import Twitter from "./icons_img/twitter.png"
 import Linkedin from "./icons_img/linkedin.png"
 
 const iconsData = [
-  { icon: GithubLogo, link: "https://github.com/argha7417" },
+  { icon: GithubLogo, link: "https://github.com/ArghaGhosh-01" },
   { icon: Twitter, link: "https://twitter.com/Argha7417" },
   { icon: Linkedin, link: "https://www.linkedin.com/in/argha-ghosh-94496a226/" },
   { icon: Instagram, link: "https://www.instagram.com/argha_ghosh_143/" },

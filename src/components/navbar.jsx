@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Logo from "./data/icons_img/Logo.png"
 
 function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);

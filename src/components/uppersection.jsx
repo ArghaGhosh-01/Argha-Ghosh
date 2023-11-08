@@ -27,12 +27,12 @@ function uppersection() {
             <Type />
           </div>
           <div className="flex justify-center my-4">
-            <button className="bg-green-500 text-white text-lg font-semibold mx-3 px-2 rounded-md button_visit">
+            <a href="https://github.com/ArghaGhosh-01/Argha-Ghosh" target="blank" className="bg-green-500 text-white text-lg font-semibold mx-3 px-2 rounded-md button_visit">
               Visit Github
-            </button>
-            <button className="bg-green-500 text-white text-lg font-semibold mx-3 px-2 rounded-md button_visit">
+            </a>
+            <a href="" target="blank" className="bg-green-500 text-white text-lg font-semibold mx-3 px-2 rounded-md button_visit">
               View Resume
-            </button>
+            </a>
           </div>
         </div>
       </div>
