@@ -20,7 +20,7 @@ function Navbar() {
                             <li>
                                 <a
                                     href="#home"
-                                    className="text-sm font-semibold text-white hover:text-green-400 hover:border-b-2 hover:border-b-green-400 px-4 py-2"
+                                    className="text-sm font-semibold text-white hover:text-green-400 hover:border-b-2 hover:border-b-green-400 px-4 py-2 nav_button"
                                 >
                                     Home
                                 </a>
@@ -28,7 +28,7 @@ function Navbar() {
                             <li>
                                 <a
                                     href="#about"
-                                    className="text-sm font-semibold text-white hover:text-green-400 hover:border-b-2 hover:border-b-green-400 px-4 py-2"
+                                    className="text-sm font-semibold text-white hover:text-green-400 hover:border-b-2 hover:border-b-green-400 px-4 py-2 nav_button"
                                 >
                                     About
                                 </a>
@@ -36,7 +36,7 @@ function Navbar() {
                             <li>
                                 <a
                                     href="#contact"
-                                    className="text-sm font-semibold text-white hover:text-green-400 hover:border-b-2 hover:border-b-green-400 px-4 py-2"
+                                    className="text-sm font-semibold text-white hover:text-green-400 hover:border-b-2 hover:border-b-green-400 px-4 py-2 nav_button"
                                 >
                                     Contact
                                 </a>

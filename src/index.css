@@ -24,6 +24,15 @@ body{
 .button_visit
 {
   box-shadow: 0 0 20px rgba(0, 255, 0, 0.8);
+  border: 1px solid #42bd7c;
+}
+
+:hover.button_visit
+{
+  background-color: black;
+  box-shadow: none;
+  border: 1px solid #38a169;
+  transition-duration: 0.6s;
 }
 
 .form_glow:hover
