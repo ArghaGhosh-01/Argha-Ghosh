@@ -13,7 +13,10 @@ function Navbar() {
                 <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8 m-0 h-20">
                     <div className="inline-flex items-center space-x-2">
                         
-                        <span className="font-bold text-white border border-white rounded-lg p-1">AG</span>
+                        <span className="font-bold text-green-400 border border-white rounded-lg p-1">A
+                        <span className="text-white">G</span>
+
+                        </span>
                     </div>
                     <div className="hidden lg:block">
                         <ul className="inline-flex space-x-8">
