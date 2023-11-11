@@ -17,7 +17,7 @@ function Card({ topic, status, percentage = 50 }) {
             </span>
           </div>
         </div>
-        <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-white">
+        <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-black border border-green-400">
           <div
             style={{ width: `${percentage}%` }}
             className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-500"

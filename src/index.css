@@ -13,7 +13,9 @@ body{
 
 .heading
 {
-  color: lightgreen;
+  --tw-text-opacity: 1;
+    color: rgb(74 222 128 / var(--tw-text-opacity));
+    text-shadow: rgb(34, 253, 34) 0px 0px 20px;
 }
 
 .card_glow
