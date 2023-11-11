@@ -11,14 +11,19 @@ body{
   animation: wave 5ms infinite;
 }
 
-.card_glow:hover
+.heading
 {
-  scale: 1.05;
-  transition-duration: 0.5s;
-  box-shadow: 0 0 30px rgba(0, 255, 0, 0.921);
-  cursor: pointer;
-  /* transition-timing-function: ease-in-out; */
+  color: lightgreen;
+}
 
+.card_glow
+{
+  /* scale: 1.05; */
+  transition-duration: 0.5s;
+  box-shadow: 0 0 12px rgba(0, 255, 0, 0.921);
+  cursor: pointer;
+  border: 1px solid rgba(0, 255, 0, 0.921) ;
+  /* transition-timing-function: ease-in-out; */
 }
 
 .button_visit
@@ -28,6 +33,14 @@ body{
 }
 
 :hover.button_visit
+{
+  background-color: black;
+  box-shadow: none;
+  border: 1px solid #38a169;
+  transition-duration: 0.6s;
+}
+
+:active.button_visit
 {
   background-color: black;
   box-shadow: none;
