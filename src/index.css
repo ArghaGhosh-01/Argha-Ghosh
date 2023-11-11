@@ -45,11 +45,15 @@ body{
 
 }
 
+.icon_glow
+{
+  box-shadow: 0 0 8px rgba(0, 255, 0, 0.8);
+}
 .icon_glow:hover
 {
-  scale: 1.2;
-  transition-duration: 0.5s;
-  box-shadow: 0 0 30px rgba(0, 255, 0, 0.8);
+  box-shadow: 0 0 8px rgba(0, 255, 0, 0.8);
+  rotate: 360deg;
+  transition-duration: 0.7s;
 }
 
 .circle
