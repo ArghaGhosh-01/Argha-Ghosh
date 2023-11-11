@@ -19,7 +19,7 @@ function uppersection() {
           </div>
           <div className="text-white font-light text-center">
             I am{" "}
-            <span className="text-green-500 ml-9 font-mono font-bold">
+            <span className="text-green-500 ml-9 font-mono font-bold heading">
               ARGHA GHOSH
             </span>{" "}
           </div>

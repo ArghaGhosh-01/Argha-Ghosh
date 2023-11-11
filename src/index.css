@@ -24,7 +24,7 @@ body{
   transition-duration: 0.5s;
   box-shadow: 0 0 8px rgba(0, 255, 0, 0.921);
   cursor: pointer;
-  border: 1px solid rgba(116, 255, 116, 0.921)
+  border: 1px solid lightgreen
   /* transition-timing-function: ease-in-out; */
 }
 
