@@ -13,7 +13,7 @@ function Navbar() {
                 <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8 m-0 h-20">
                     <div className="inline-flex items-center space-x-2">
                         
-                        <span className="font-bold text-green-400 border border-white rounded-lg p-1">A
+                        <span className="font-bold border border-white rounded-lg p-1 heading">A
                         <span className="text-white">G</span>
 
                         </span>
@@ -60,9 +60,9 @@ function Navbar() {
                             className="h-6 w-6 cursor-pointer"
                             onClick={toggleMenu}
                         >
-                            <line className="text-white" x1="4" y1="6" x2="20" y2="6" />
-                            <line className="text-white" x1="4" y1="12" x2="20" y2="12" />
-                            <line className="text-white" x1="4" y1="18" x2="20" y2="18" />
+                            <line className="text-cyan-400" x1="4" y1="6" x2="20" y2="6" />
+                            <line className="text-cyan-400" x1="4" y1="12" x2="20" y2="12" />
+                            <line className="text-cyan-400" x1="4" y1="18" x2="20" y2="18" />
                         </svg>
                     </div>
                 </div>

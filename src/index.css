@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body{
-  background-color: black;
+  background-color: #00091e;
 }
 /* #000e09 */
 
@@ -11,45 +11,38 @@ body{
   animation: wave 5ms infinite;
 }
 
+.line
+{
+  background: linear-gradient(90deg, #00F0FF 50.33%, rgba(0, 238, 255, 0.113) 110.25%);
+}
+
+.line-spacing
+{
+  margin-left: -8px;
+}
+
 .heading
 {
-  --tw-text-opacity: 1;
-    color: rgb(74 222 128 / var(--tw-text-opacity));
-    text-shadow: rgb(34, 253, 34) 0px 0px 20px;
+  background: linear-gradient(90deg, #00F0FF -27.13%, #00FF75 194.94%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
 .card_glow
 {
   /* scale: 1.05; */
   transition-duration: 0.5s;
-  box-shadow: 0 0 8px rgba(0, 255, 0, 0.921);
+  box-shadow: 0 0 8px rgba(0, 255, 247, 0.921);
   cursor: pointer;
   border: 1px solid lightgreen
   /* transition-timing-function: ease-in-out; */
 }
 
-.button_visit
-{
-  box-shadow: 0 0 20px rgba(0, 255, 0, 0.8);
-  border: 1px solid #42bd7c;
+.button_visit {
+  border-radius: 0.625rem;
+  background: linear-gradient(90deg, #00F0FF -103.85%, rgba(0, 240, 255, 0.00) 186.04%);
 }
-
-:hover.button_visit
-{
-  background-color: black;
-  box-shadow: none;
-  border: 1px solid #38a169;
-  transition-duration: 0.6s;
-}
-
-:active.button_visit
-{
-  background-color: black;
-  box-shadow: none;
-  border: 1px solid #38a169;
-  transition-duration: 0.6s;
-}
-
 .form_glow:hover
 {
   /* scale: 1.05; */
@@ -62,7 +55,7 @@ body{
 
 .icon_glow
 {
-  box-shadow: 0 0 8px rgba(0, 255, 0, 0.8);
+  box-shadow: 0 0 8px cyan;
 }
 .icon_glow:hover
 {
@@ -73,8 +66,13 @@ body{
 
 .circle
 {
-  box-shadow: 0 0 30px green;
+  border-radius: 18.75rem;
+background: rgb(0, 255, 255);
+filter: blur(50px);
+z-index: 3;
 }
+
+
 
 
 @keyframes wave {

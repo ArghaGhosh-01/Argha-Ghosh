@@ -2,7 +2,7 @@ import React from "react";
 
 function Card({ topic, status, percentage = 50 }) {
   return (
-    <div className="bg-opacity-50 backdrop-filter backdrop-blur-lg p-4 shadow-md rounded-lg border border-white m-4 w-full md:w-1/2 lg:w-1/3 card_glow cursor-pointer">
+    <div className="bg-opacity-50 backdrop-filter backdrop-blur-lg p-4 shadow-md rounded-lg border border-white mx-8 my-4 w-full md:w-1/2 lg:w-1/3 card_glow cursor-pointer">
       <h3 className="text-lg font-mono font-bold mb-2 text-white">{topic}</h3>
       <div className="relative pt-1">
         <div className="flex mb-2 items-center justify-between">

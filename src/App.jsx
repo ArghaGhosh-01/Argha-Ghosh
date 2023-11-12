@@ -8,6 +8,7 @@ import Particles from './components/particlebg';
 import About from './components/about'
 import ContactForm from './components/contact';
 import Project from './components/project';
+import Experience from './components/experience';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Uppersection />
       <About />
       <Skills />
+      <Experience />
       <Project />
       <div className='m-12 font-semibold'>
         <h1 className='flex items-center justify-center text-2xl font-bold  heading'>
@@ -24,6 +26,7 @@ function App() {
         </h1>
         <TechIcons />
       </div>
+     
       <div className='m-12 font-semibold'>
       <h1 className='flex items-center justify-center text-2xl font-bold  mb-10 mt-28 heading'>
           CONTACT ME

@@ -23,14 +23,14 @@ function uppersection() {
               ARGHA GHOSH
             </span>{" "}
           </div>
-          <div className="text-green-500 flex justify-center text-xl font-mono font-bold">
+          <div className="text-green-500 flex justify-center text-xl font-mono font-bold heading">
             <Type />
           </div>
           <div className="flex justify-center my-4">
-            <a href="https://github.com/ArghaGhosh-01/Argha-Ghosh" target="blank" className="bg-green-500 text-white text-lg font-semibold mx-3 px-2 rounded-md button_visit">
+            <a href="https://github.com/ArghaGhosh-01/Argha-Ghosh" target="blank" className="bg-green-500 text-white text-lg font-semibold mx-3 px-2 rounded-sm button_visit">
               Visit Github
             </a>
-            <a href="" target="blank" className="bg-green-500 text-white text-lg font-semibold mx-3 px-2 rounded-md button_visit">
+            <a href="" target="blank" className="bg-green-500 text-white text-lg font-semibold mx-3 px-2 rounded-sm button_visit">
               View Resume
             </a>
           </div>
