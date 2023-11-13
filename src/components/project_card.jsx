@@ -7,8 +7,8 @@ function ProjectCard({name,description,link,view}) {
         <h3 className="text-xl font-mono font-bold mb-2 text-center text-gray-300">{name}</h3>
         <p className="text-white mb-4 text-center font-extralight text-sm">{description}</p>
         <div className="flex justify-center gap-2">
-          <a href={link} target="_blank" rel="noopener noreferrer" className="text-white font-medium bg-green-600 border border-green-600 button_visit  p-2 rounded-md ">Code</a>
-          <a href={view} target="_blank" rel="noopener noreferrer" className="text-white font-medium bg-green-600 border border-green-600 button_visit  p-2 rounded-md">Demo</a>
+          <a href={link} target="_blank" rel="noopener noreferrer" className="text-white font-medium  button_visit  p-2 rounded-md ">Code</a>
+          <a href={view} target="_blank" rel="noopener noreferrer" className="text-white font-medium  button_visit  p-2 rounded-md">Demo</a>
         </div>
       </div>
     </div>

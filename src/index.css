@@ -35,13 +35,32 @@ background-clip: text;
   transition-duration: 0.5s;
   box-shadow: 0 0 8px rgba(0, 255, 247, 0.921);
   cursor: pointer;
-  border: 1px solid lightgreen
+  border: 1px solid aqua;
   /* transition-timing-function: ease-in-out; */
+}
+
+.glow {
+  filter: drop-shadow(0 0 10px #00B2FF) drop-shadow(0 0 20px #00B2FF) drop-shadow(0 0 30px #00B2FF);
 }
 
 .button_visit {
   border-radius: 0.625rem;
-  background: linear-gradient(90deg, #00F0FF -103.85%, rgba(0, 240, 255, 0.00) 186.04%);
+  background: linear-gradient(90deg, #0063B2FF 0%, #00B2FFFF 100%);
+  transition: 0.3s;
+  box-shadow: 0 0 5px #00B2FF, 0 0 40px #00B2FF, 0 0 80px #00B2FF;
+}
+
+.button_visit:hover {
+  box-shadow: 0 0 20px #00B2FF, 0 0 50px #00B2FF, 0 0 100px #00B2FF;
+}
+
+.logo-text {
+  box-shadow: 0 0 10px #00B2FF, 0 0 40px #00B2FF, 0 0 80px #00B2FF;
+  transition: 0.3s;
+}
+
+.logo-text:hover {
+  box-shadow: 0 0 20px #00B2FF, 0 0 50px #00B2FF, 0 0 100px #00B2FF;
 }
 .form_glow:hover
 {
