@@ -14,11 +14,11 @@ function uppersection() {
           <div className="text-white flex justify-center font-light ">
             Hi there !
             <span className="wave-emoji wave ml-2" role="img">
-              👋🏻
-            </span>
+  👋🏻
+</span>
           </div>
           <div className="text-white font-light text-center">
-            I am{" "}
+            I'm{" "}
             <span className="text-green-500 ml-9 font-mono font-bold heading">
               ARGHA GHOSH
             </span>{" "}

@@ -107,22 +107,16 @@ z-index: 3;
 
 
 
-@keyframes wave {
-  0%, 100% {
-    transform: rotate(0deg);
-  }
-  25% {
-    transform: rotate(15deg);
-  }
-  75% {
-    transform: rotate(-15deg);
-  }
+@keyframes wave-animation {
+  0%, 100% { transform: rotate(0deg); }
+  20%, 60% { transform: rotate(-20deg); }
+  40%, 80% { transform: rotate(10deg); }
 }
-
 .wave-emoji {
-  animation: wave 0.7s infinite;
+  display: inline-block;
+  transform-origin: 100% 100%;
+  animation: wave-animation 2.5s infinite;
 }
-
 .icon {
   fill: #00B2FF;
 }
