@@ -123,7 +123,11 @@ z-index: 3;
   animation: wave 0.7s infinite;
 }
 
+.icon {
+  fill: #00B2FF;
+}
+
 .footer{
 
-  background-color: black;
+  background-color: #00091e;
 }
