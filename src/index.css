@@ -114,7 +114,31 @@ filter: blur(50px);
 z-index: 3;
 }
 
+.nav_button {
+  position: relative;
+  overflow: hidden;
+  color: white; /* Initial color of the text */
+  transition: color 0.3s; /* Transition effect for the color change */
+}
 
+.nav_button::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: aqua;
+  transition: width 0.3s;
+}
+
+.nav_button:hover {
+  color: aqua; /* Color of the text on hover */
+}
+
+.nav_button:hover::after {
+  width: 100%;
+}
 
 
 @keyframes wave-animation {
