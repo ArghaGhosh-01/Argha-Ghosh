@@ -20,7 +20,7 @@ function Card({ topic, status, percentage = 50 }) {
         <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-black border border-cyan-400 glow_skill">
           <div
             style={{ width: `${percentage}%` }}
-            className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-cyan-400"
+            className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-cyan-400 rounded-full"
           ></div>
         </div>
       </div>
