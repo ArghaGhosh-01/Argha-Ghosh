@@ -2,10 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.custom-cursor {
+  cursor: url('./assets//Photos/cursor.png'), auto;
+}
+
+.pointer-cursor {
+  cursor: url('./assets/Photos/pointer.png'), pointer;
+}
+
 body{
   background-color: #00091e;
 }
 /* #000e09 */
+
+
 
 .wave-emoji {
   animation: wave 5ms infinite;
@@ -34,7 +45,6 @@ background-clip: text;
   /* scale: 1.05; */
   transition-duration: 0.5s;
   box-shadow: 0 0 8px rgba(0, 255, 247, 0.921);
-  cursor: pointer;
   border: 1px solid aqua;
   /* transition-timing-function: ease-in-out; */
 }
@@ -58,7 +68,7 @@ background-clip: text;
 
 .button_visit {
   border-radius: 0.625rem;
-  background: linear-gradient(90deg, #0063B2FF 0%, #00B2FFFF 100%);
+  background: linear-gradient(90deg, #0063B2FF 0%, #0063B2FF 100%);
   transition: 0.3s;
   box-shadow: 0 0 5px #00B2FF, 0 0 40px #00B2FF, 0 0 80px #00B2FF;
 }
