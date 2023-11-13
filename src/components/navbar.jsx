@@ -56,7 +56,7 @@ function Navbar() {
                             strokeWidth="2"
                             strokeLinecap="round"
                             strokeLinejoin="round"
-                            className="h-6 w-6 cursor-pointer"
+                            className="h-6 w-6 cursor-pointer glow"
                             onClick={toggleMenu}
                         >
                             <line className="text-cyan-400" x1="4" y1="6" x2="20" y2="6" />
