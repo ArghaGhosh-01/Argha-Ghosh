@@ -12,15 +12,15 @@ function Card({ topic, status, percentage = 50 }) {
             </span>
           </div>
           <div className="text-right">
-            <span className="text-xs font-semibold inline-block text-green-600">
+            <span className="text-xs font-semibold inline-block text-cyan-600">
               {percentage}%
             </span>
           </div>
         </div>
-        <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-black border border-green-400">
+        <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-black border border-cyan-400 glow_skill">
           <div
             style={{ width: `${percentage}%` }}
-            className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-500"
+            className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-cyan-400"
           ></div>
         </div>
       </div>

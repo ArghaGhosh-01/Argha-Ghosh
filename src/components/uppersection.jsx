@@ -6,8 +6,8 @@ function uppersection() {
   return (
     <div className="flex flex-wrap mx-10 my-8 gap-7 justify-center items-center">
       <div className="md:w-2/5 w-96 p-4 flex justify-center align-middle my-4 items-center text-white">
-        <img className="h-full" src={Illustration} alt="Illustration" />
-        <span className="bg-green-400 rounded-full w-44 h-44 opacity-10 absolute top-28 circle"></span>
+        <img className="h-full illustration" src={Illustration} alt="Illustration" />
+        <span className=" rounded-full w-44 h-44 opacity-10 absolute top-28 circle"></span>
       </div>
       <div className="w-full md:w-2/5 p-0 h-40 flex justify-center my-4 text-3xl">
         <div className="bg-opacity-50 backdrop-filter backdrop-blur-lg w-96">

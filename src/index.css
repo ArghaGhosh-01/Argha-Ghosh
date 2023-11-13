@@ -39,8 +39,21 @@ background-clip: text;
   /* transition-timing-function: ease-in-out; */
 }
 
+@keyframes upDown {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+.illustration {
+  animation: upDown 2s ease-in-out infinite;
+}
+
 .glow {
   filter: drop-shadow(0 0 10px #00B2FF) drop-shadow(0 0 20px #00B2FF) drop-shadow(0 0 30px #00B2FF);
+}
+
+.glow_skill {
+  box-shadow: 0 0 10px #00B2FF, 0 0 40px #00B2FF, 0 0 80px #00B2FF;
 }
 
 .button_visit {
