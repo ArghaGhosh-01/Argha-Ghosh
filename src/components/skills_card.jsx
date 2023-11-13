@@ -12,7 +12,7 @@ function Card({ topic, status, percentage = 50 }) {
             </span>
           </div>
           <div className="text-right">
-            <span className="text-xs font-semibold inline-block text-cyan-600">
+            <span className="text-xs font-semibold inline-block text-cyan-400">
               {percentage}%
             </span>
           </div>
