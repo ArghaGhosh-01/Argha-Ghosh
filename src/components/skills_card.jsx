@@ -1,9 +1,26 @@
-import React from "react";
+
+
+
+
+
+import React, { useState, useEffect, useRef } from "react";
 
 function Card({ topic, status, percentage = 50 }) {
+  const [isVisible, setVisible] = useState(false);
+  const cardRef = useRef();
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => setVisible(entry.isIntersecting));
+    });
+
+    observer.observe(cardRef.current);
+    return () => observer.unobserve(cardRef.current);
+  }, []);
+
   return (
-    <div className="bg-opacity-50 backdrop-filter backdrop-blur-lg p-4 shadow-md rounded-lg border border-white mx-8 my-4 w-full md:w-1/2 lg:w-1/3 card_glow pointer-cursor">
-      <h3 className="text-lg font-mono font-bold mb-2 text-white">{topic}</h3>
+    <div ref={cardRef} className={`bg-opacity-50 backdrop-filter backdrop-blur-lg p-4 shadow-md rounded-lg border border-white mx-8 my-4 w-full md:w-1/2 lg:w-1/3 card_glow pointer-cursor ${isVisible ? 'fade-in' : 'fade-out'}`}>
+     <h3 className="text-lg font-mono font-bold mb-2 text-white">{topic}</h3>
       <div className="relative pt-1">
         <div className="flex mb-2 items-center justify-between">
           <div>
@@ -24,6 +41,7 @@ function Card({ topic, status, percentage = 50 }) {
           ></div>
         </div>
       </div>
+      {/* Rest of your code */}
     </div>
   );
 }

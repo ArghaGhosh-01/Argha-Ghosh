@@ -1,11 +1,27 @@
-import React from "react";
+
+
+
+
+import React, { useState, useEffect, useRef } from "react";
 import Illustration from "../assets/Photos/illu.png";
 import Type from "./type";
 
 function uppersection() {
+  const [isVisible, setVisible] = useState(false);
+  const sectionRef = useRef();
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => setVisible(entry.isIntersecting));
+    });
+
+    observer.observe(sectionRef.current);
+    return () => observer.unobserve(sectionRef.current);
+  }, []);
+
   return (
-    <div  id="home" className="flex flex-wrap mx-10 my-8 gap-7 justify-center items-center">
-      <div className="md:w-2/5 w-96 p-4 flex justify-center align-middle my-4 items-center text-white">
+    <div ref={sectionRef} id="home" className={`flex flex-wrap mx-10 my-8 gap-7 justify-center items-center ${isVisible ? 'fade-in' : 'fade-out'}`}>
+     <div className="md:w-2/5 w-96 p-4 flex justify-center align-middle my-4 items-center text-white">
         <img  className="h-full illustration" src={Illustration} alt="Illustration" />
         <span className=" rounded-full w-44 h-44 opacity-10 absolute top-28 circle"></span>
       </div>
@@ -36,6 +52,7 @@ function uppersection() {
           </div>
         </div>
       </div>
+      {/* Rest of your code */}
     </div>
   );
 }

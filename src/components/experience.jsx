@@ -1,15 +1,27 @@
-// import Line from "../assets/Photos/experience_line.jpeg"
 
-function Experience() {
+
+
+
+import React, { useState, useEffect, useRef } from "react";
+
+function experience() {
+  const [isVisible, setVisible] = useState(false);
+  const experienceRef = useRef();
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => setVisible(entry.isIntersecting));
+    });
+
+    observer.observe(experienceRef.current);
+    return () => observer.unobserve(experienceRef.current);
+  }, []);
+
   return (
-    <div className="w-auto mx-16 py-5 mt-28">
-      <h2 id="experience" className="text-2xl font-bold mb-4 flex justify-center text-white font-sans heading "> 
+    <div ref={experienceRef} className={`w-auto mx-16 py-5 mt-28 ${isVisible ? 'fade-in' : 'fade-out'}`}>
+     <h2 id="experience" className="text-2xl font-bold mb-4 flex justify-center text-white font-sans heading "> 
         EXPERIENCES
       </h2>
-
-
-
-      
       <div className="flex justify-center items-center">
       <div className=" glow w-1 h-52 line"></div>
       <svg className="glow" width="117" height="18" viewBox="0 0 117 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -25,21 +37,6 @@ function Experience() {
           Web Designing & Web Development Internship Oasis Infobyte 2023 March - 2023 June 
         </p>
       </div>
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -58,22 +55,9 @@ function Experience() {
           Postman Student Expert 
         </p>
       </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      {/* Rest of your code */}
     </div>
   );
 }
 
-export default Experience;
+export default experience;
