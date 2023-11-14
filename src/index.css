@@ -166,12 +166,12 @@ z-index: 3;
 
 .nav_button:hover {
   color: aqua; /* Color of the text on hover */
+  text-shadow: 0 0 10px aqua, 0 0 20px aqua, 0 0 30px aqua, 0 0 40px aqua; /* Glowing effect */
 }
 
 .nav_button:hover::after {
   width: 100%;
 }
-
 
 @keyframes wave-animation {
   0%, 100% { transform: rotate(0deg); }
