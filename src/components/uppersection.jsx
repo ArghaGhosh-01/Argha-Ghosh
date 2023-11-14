@@ -4,9 +4,9 @@ import Type from "./type";
 
 function uppersection() {
   return (
-    <div className="flex flex-wrap mx-10 my-8 gap-7 justify-center items-center">
+    <div  id="home" className="flex flex-wrap mx-10 my-8 gap-7 justify-center items-center">
       <div className="md:w-2/5 w-96 p-4 flex justify-center align-middle my-4 items-center text-white">
-        <img className="h-full illustration" src={Illustration} alt="Illustration" />
+        <img  className="h-full illustration" src={Illustration} alt="Illustration" />
         <span className=" rounded-full w-44 h-44 opacity-10 absolute top-28 circle"></span>
       </div>
       <div className="w-full md:w-2/5 p-0 h-40 flex justify-center my-4 text-3xl">
@@ -23,7 +23,7 @@ function uppersection() {
               ARGHA GHOSH
             </span>{" "}
           </div>
-          <div className="text-green-500 flex justify-center text-xl font-mono font-bold heading">
+          <div className="text-green-500 flex justify-center text-xl font-mono font-bold type">
             <Type />
           </div>
           <div className="flex justify-center my-4">

@@ -7,7 +7,7 @@ function Card({ topic, status, percentage = 50 }) {
       <div className="relative pt-1">
         <div className="flex mb-2 items-center justify-between">
           <div>
-            <span className="text-xs font-medium inline-block py-1 px-2 uppercase rounded-full text-white bg-white-200">
+            <span className="text-xs font-medium inline-block py-1 px-2 uppercase rounded-full text-white bg-white-200 para">
               {status}
             </span>
           </div>

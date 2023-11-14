@@ -28,7 +28,7 @@ function App() {
       </div>
      
       <div className='m-12 font-semibold'>
-      <h1 className='flex items-center justify-center text-2xl font-bold  mb-10 mt-28 heading'>
+      <h1 id='contact' className='flex items-center justify-center text-2xl font-bold  mb-10 mt-28 heading'>
           CONTACT ME
         </h1>
       <ContactForm />

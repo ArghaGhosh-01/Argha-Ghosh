@@ -13,9 +13,9 @@ function Navbar() {
                 <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8 m-0 h-20">
                     <div className="inline-flex items-center space-x-2">
                         
-                    <span className="logo-text border border-white rounded-lg p-1 text-cyan-400 font-bold">A
+                    <a href="#home" className="logo-text border pointer-cursor border-white rounded-lg p-1 text-cyan-400 font-bold">A
   <span className="text-white">G</span>
-</span>
+</a>
                     </div>
                     <div className="hidden lg:block">
                         <ul className="inline-flex space-x-8">
@@ -35,6 +35,24 @@ function Navbar() {
                                     About
                                 </a>
                             </li>
+                           
+                            <li>
+                                <a
+                                    href="#experience"
+                                    className="text-sm font-semibold text-white px-4 py-2 nav_button pointer-cursor"
+                                >
+                                    Experience
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#projects"
+                                    className="text-sm font-semibold text-white px-4 py-2 nav_button pointer-cursor"
+                                >
+                                    Projects
+                                </a>
+                            </li>
+                      
                             <li>
                                 <a
                                     href="#contact"
@@ -71,7 +89,7 @@ function Navbar() {
                             <li>
                                 <a
                                     href="#home"
-                                    className="text-sm font-semibold text-white hover:text-green-400"
+                                    className="text-sm font-semibold text-cyan-500 hover:text-green-400"
                                     onClick={toggleMenu}
                                 >
                                     Home
@@ -80,16 +98,36 @@ function Navbar() {
                             <li>
                                 <a
                                     href="#about"
-                                    className="text-sm font-semibold text-white hover:text-green-400"
+                                    className="text-sm font-semibold text-cyan-500 hover:text-green-400"
                                     onClick={toggleMenu}
                                 >
                                     About
                                 </a>
                             </li>
+                           
+                            <li>
+                                <a
+                                    href="#experience"
+                                    className="text-sm font-semibold text-cyan-500 hover:text-green-400"
+                                    onClick={toggleMenu}
+                                >
+                                    Experience
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#projects"
+                                    className="text-sm font-semibold text-cyan-500 hover:text-green-400"
+                                    onClick={toggleMenu}
+                                >
+                                    Projects
+                                </a>
+                            </li>
+                         
                             <li>
                                 <a
                                     href="#contact"
-                                    className="text-sm font-semibold text-white hover:text-green-400"
+                                    className="text-sm font-semibold text-cyan-500 hover:text-green-400"
                                     onClick={toggleMenu}
                                 >
                                     Contact

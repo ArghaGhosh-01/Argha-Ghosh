@@ -2,7 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/* index.css or App.css */
+html {
+  scroll-behavior: smooth;
+}
 .custom-cursor {
   cursor: url('./assets//Photos/cursor.png'), auto;
 }
@@ -38,6 +41,33 @@ body{
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+font-family: 'EB Garamond', serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif;
+}
+.type
+{
+  background: linear-gradient(90deg, #00F0FF -27.13%, #00FF75 194.94%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.para
+{
+  font-family: 'EB Garamond', serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif;
 }
 
 .card_glow
