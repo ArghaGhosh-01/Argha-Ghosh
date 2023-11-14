@@ -5,6 +5,8 @@
 /* index.css or App.css */
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+  
 }
 .custom-cursor {
   cursor: url('./assets//Photos/cursor.png'), auto;
