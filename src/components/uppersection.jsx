@@ -25,7 +25,7 @@ function uppersection() {
         <img  className="h-full illustration" src={Illustration} alt="Illustration" />
         <span className=" rounded-full w-44 h-44 opacity-10 absolute top-28 circle"></span>
       </div>
-      <div className="w-full md:w-2/5 p-0 h-40 flex justify-center my-4 text-3xl">
+      <div className="w-full md:w-2/5 p-0 h-40 flex justify-center my-4 text-2xl">
         <div className="bg-opacity-50 backdrop-filter backdrop-blur-lg w-96">
           <div className="text-white flex justify-center font-light ">
             Hi there !
@@ -43,10 +43,10 @@ function uppersection() {
             <Type />
           </div>
           <div className="flex justify-center my-4">
-            <a href="https://github.com/ArghaGhosh-01/Argha-Ghosh" target="blank" className="pointer-cursor text-white text-lg font-semibold mx-3 p-2 button_visit">
+            <a href="https://github.com/ArghaGhosh-01/Argha-Ghosh" target="blank" className="pointer-cursor text-white text-xs font-semibold mx-3 p-2 button_visit">
               Visit Github
             </a>
-            <a href="" target="blank" className="pointer-cursor text-white text-lg font-semibold mx-3 p-2 button_visit">
+            <a href="" target="blank" className="pointer-cursor text-white text-xs font-semibold mx-3 p-2 button_visit">
               View Resume
             </a>
           </div>

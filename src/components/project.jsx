@@ -5,7 +5,7 @@ import projectData from "./data/projectData";
 function Project() {
   return (
     <div  className="w-auto mx-20 py-5">
-  <h2 id="projects" className="text-2xl font-sans font-bold mb-8 text-center text-white mx-10 mt-10 w-auto py-2 heading">PROJECTS</h2>
+  <h2 id="projects" className="text-2xl font-sans font-bold mb-8 text-center text-white mx-0 mt-10 w-auto py-2 heading">PROJECTS</h2>
 
   <div className="flex flex-wrap items-center justify-center">
     {projectData.map((data, index) => (
