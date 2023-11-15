@@ -221,3 +221,10 @@ z-index: 3;
 
 
 
+.card-hover {
+  transition: all 0.3s ease-in-out;
+}
+
+.card-hover:hover {
+  transform: translateY(-10px);
+}
