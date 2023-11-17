@@ -13,7 +13,7 @@ function Navbar() {
                 <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8 m-0 h-20">
                     <div className="inline-flex items-center space-x-2">
                         
-                    <a href="#home" className="logo-text border pointer-cursor border-white rounded-lg p-1 text-cyan-400 font-bold">A
+                    <a href="https://linktr.ee/Argha_Ghosh" className="logo-text border pointer-cursor border-white rounded-lg p-1 text-cyan-400 font-bold">A
   <span className="text-white">G</span>
 </a>
                     </div>
