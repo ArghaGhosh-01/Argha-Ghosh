@@ -29,24 +29,24 @@ function uppersection() {
         <div className="bg-opacity-50 backdrop-filter backdrop-blur-lg w-96">
           <div className="text-white flex justify-center font-light ">
             Hi there !
-            <span className="wave-emoji wave ml-2" role="img">
+            <span className="wave-emoji text-3xl wave ml-4" role="img">
   👋🏻
 </span>
           </div>
           <div className="text-white font-light text-center">
             I'm{" "}
-            <span className="text-green-500 ml-4 font-mono font-bold heading">
+            <span className=" ml-4 font-mono font-bold text-cyan-400">
               ARGHA GHOSH
             </span>{" "}
           </div>
-          <div className="text-green-500 flex justify-center text-xl font-mono font-bold type">
+          <div className=" flex justify-center text-xl font-mono font-bold text-cyan-400">
             <Type />
           </div>
           <div className="flex justify-center my-4">
-            <a href="https://github.com/ArghaGhosh-01/Argha-Ghosh" target="blank" className="pointer-cursor text-white text-xs font-semibold mx-3 p-2 button_visit">
+            <a href="https://github.com/ArghaGhosh-01/Argha-Ghosh" target="blank" className="pointer-cursor  border-2 border-cyan-400 p-2 rounded-lg bg-cyan-400 button_visit text-xs font-semibold mx-3 button_visit">
               Visit Github
             </a>
-            <a href="" target="blank" className="pointer-cursor text-white text-xs font-semibold mx-3 p-2 button_visit">
+            <a href="" target="blank" className="pointer-cursor border-2 border-cyan-400 rounded-lg bg-cyan-400 button_visit text-xs font-semibold mx-3 p-2 button_visit">
               View Resume
             </a>
           </div>

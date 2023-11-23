@@ -98,15 +98,22 @@ font-family: 'Poppins', sans-serif;
   box-shadow: 0 0 10px #00B2FF, 0 0 40px #00B2FF, 0 0 80px #00B2FF;
 }
 
-.button_visit {
-  border-radius: 0.625rem;
-  background: linear-gradient(90deg, #0063B2FF 0%, #0063B2FF 100%);
+.button_visit
+{
   transition: 0.3s;
-  box-shadow: 0 0 5px #00B2FF, 0 0 40px #00B2FF, 0 0 80px #00B2FF;
+  color: black;
+  border-color: #22D3EE;
+  background-color: #22D3EE;
+  box-shadow: 0 0 5px #22D3EE, 0 0 5px #22D3EE, 0 0 2px #22D3EE, 0 0 20px #22D3EE
 }
-
-.button_visit:hover {
-  box-shadow: 0 0 20px #00B2FF, 0 0 50px #00B2FF, 0 0 100px #00B2FF;
+.button_visit:hover
+{
+  /* background-color: black; */
+  color: #22D3EE;
+  border-color: #22D3EE;
+  background-color: black;
+  box-shadow: 0 0 5px aqua, 0 0 10px aqua, 0 0 20px aqua, 0 0 20px aqua;
+  /* text-shadow: 0 0 1px aqua, 0 0 1px aqua, 0 0 2px aqua, 0 0 1px aqua; */
 }
 
 .logo-text {

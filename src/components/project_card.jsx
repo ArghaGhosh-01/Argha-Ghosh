@@ -19,8 +19,8 @@ function ProjectCard({name,description,link,view}) {
         <h3 className="text-xl font-mono font-bold mb-2 text-center text-gray-300">{name}</h3>
         <p className="text-white mb-4 text-center font-extralight text-sm para">{description}</p>
         <div className="flex justify-center gap-2">
-          <a href={link} target="_blank" rel="noopener noreferrer" className="text-white font-medium  button_visit  p-2 rounded-md  pointer-cursor">Code</a>
-          <a href={view} target="_blank" rel="noopener noreferrer" className="text-white font-medium  button_visit  p-2 rounded-md pointer-cursor">Demo</a>
+          <a href={link} target="_blank" rel="noopener noreferrer" className="text-white font-medium  button_visit  p-2 rounded-lg  pointer-cursor">Code</a>
+          <a href={view} target="_blank" rel="noopener noreferrer" className="text-white font-medium  button_visit  p-2 rounded-lg pointer-cursor ml-1">Demo</a>
         </div>
       </div>
       {/* Rest of your code */}
