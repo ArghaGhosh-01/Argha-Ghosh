@@ -144,7 +144,7 @@ function Navbar() {
                             </li>
                             <li>
                                 <a
-                                    href="#contact"
+                                    href="https://linktr.ee/Argha_Ghosh"
                                     className="text-sm font-semibold text-cyan-500 border-2 border-cyan-500 rounded-lg px-4 py-2"
                                     onClick={toggleMenu}
                                 >
