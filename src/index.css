@@ -149,7 +149,7 @@ z-index: 3;
 .nav_button {
   position: relative;
   overflow: hidden;
-  color: white; /* Initial color of the text */
+  color: aqua; /* Initial color of the text */
   transition: color 0.3s; /* Transition effect for the color change */
 }
 
@@ -167,6 +167,16 @@ z-index: 3;
 .nav_button:hover {
   color: aqua; /* Color of the text on hover */
   text-shadow: 0 0 10px aqua, 0 0 20px aqua, 0 0 30px aqua, 0 0 40px aqua; /* Glowing effect */
+}
+
+.linktree {
+  transition-duration: 0.5s; /* Adjust this value to control the speed of the transition */
+}
+
+.linktree:hover {
+  color: aqua;
+  box-shadow: 0 0 2px aqua, 0 0 5px aqua, 0 0 10px aqua, 0 0 20px aqua;
+  transition-duration: 0.3s;
 }
 
 .nav_button:hover::after {
