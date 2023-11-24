@@ -7,7 +7,7 @@ const projectData = [
     },
     {
         name: " NEWS APP",
-        description: "Kaisa hai?",
+        description: "delivers up-to-date information, articles, and stories across various categories to users' fingertips",
         link: "https://github.com/ArghaGhosh-01/News-App",
         view: "https://github.com/ArghaGhosh-01/News-App",
       },
