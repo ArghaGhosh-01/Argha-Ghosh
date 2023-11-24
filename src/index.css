@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 /* index.css or App.css */
 html {
   scroll-behavior: smooth;
@@ -245,3 +246,43 @@ z-index: 3;
 .card-hover:hover {
   transform: translateY(-10px);
 }
+
+
+.nav-item {
+  position: relative;
+  letter-spacing: 3px;
+  /* cursor: pointer; */
+}
+
+.nav-text {
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+  transition: 0.1s ease;
+  transition-delay: 0.25s;
+/* margin-left: 5px; */
+
+}
+
+.hover-nav-text {
+  position: absolute;
+  inset: 0;
+  width: 0%;
+  color: #1af7ff;
+  overflow: hidden;
+  border-right: 2px solid #1af7ff;
+  /* height: 100%; */
+  transition: 0.5s ease-in-out;
+  /* margin: 0px -5px; */
+/* margin-right: 5px; */
+}
+
+.nav-item:hover .hover-nav-text {
+  width: 100%;
+  filter: drop-shadow(0 0 40px #1af7ff);
+}
+
+.nav-item:hover .nav-text {
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
+}
+
+
