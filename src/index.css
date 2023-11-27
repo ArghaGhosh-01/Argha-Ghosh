@@ -18,7 +18,7 @@ html {
 }
 
 body{
-  background-color: #00091e;
+  background-color: #00081b;
 }
 /* #000e09 */
 
@@ -52,7 +52,9 @@ font-family: 'Nunito', sans-serif;
 font-family: 'Oswald', sans-serif;
 font-family: 'Pacifico', cursive;
 font-family: 'Poppins', sans-serif;
+
 }
+
 .type
 {
   background: linear-gradient(90deg, #00F0FF -27.13%, #00FF75 194.94%);

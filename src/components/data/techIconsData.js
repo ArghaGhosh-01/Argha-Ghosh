@@ -1,35 +1,40 @@
 import Github from "./icons_img/github_icon.png";
 import Express from "./icons_img/expressjs.png";
 import Vite from "./icons_img/vite.png";
+import Html from "./icons_img/html.png";
+import Css from "./icons_img/css.png";
+import Js from "./icons_img/js.png";
+import Tailwind from "./icons_img/tailwind.png";
+import Bootstrap from "./icons_img/bootstrap.png";
+import Nodejs from "./icons_img/nodejs.png";
 
 const techIconsData = [
   {
-    image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+    image: Html,
     name: "HTML",
   },
   {
     image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      Css,
     name: "CSS",
   },
   {
-    image: "https://cdn.simpleicons.org/tailwindcss/06B6D4",
+    image: Tailwind,
     name: "Tailwind CSS",
   },
   {
     image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+     Bootstrap,
     name: "Bootstrap",
   },
   {
     image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      Js,
     name: "JavaScript",
   },
   {
     image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+      Nodejs,
     name: "Node.js",
   },
   {
@@ -38,7 +43,7 @@ const techIconsData = [
   },
   {
     image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      Js,
     name: "React",
   },
   {
@@ -47,12 +52,12 @@ const techIconsData = [
   },
   {
     image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+    Js,
     name: "MongoDB",
   },
   {
     image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+    Js,
     name: "Git",
   },
   {
@@ -61,57 +66,57 @@ const techIconsData = [
   },
   {
     image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
+    Js,
     name: "Flutter",
   },
   {
     image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg",
+    Js,
     name: "Dart",
   },
   {
     image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+    Js,
     name: "Java",
   },
   {
     image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+    Js,
     name: "Python",
   },
   {
     image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
+    Js,
     name: "C",
   },
   {
     image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
+    Js,
     name: "C++",
   },
   {
     image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg",
+    Js,
     name: "Jupyter",
   },
   {
     image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/appwrite/appwrite-original.svg",
+    Js,
     name: "Appwrite",
   },
   {
     image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+    Js,
     name: "Figma",
   },
   {
     image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg",
+    Js,
     name: "npm",
   },
   {
     image:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
+    Js,
     name: "Linux",
   },
 ];
