@@ -8,7 +8,7 @@ import Bootstrap from "./icons_img/bootstrap.png";
 import Nodejs from "./icons_img/nodejs.png";
 import React from "./icons_img/react.png";
 import Dart from "./icons_img/dart.png";
-import Mongo from "./icons_img/mongo.png"; 
+import Mong from "./icons_img/mongo.png"; 
 import Arduino from "./icons_img/arduino.png";
 import Firebase from "./icons_img/firebase.png";
 
@@ -63,7 +63,7 @@ const techIconsData = [
   },
   {
     image:
-      Mongo,
+      Mong,
     name: "Mongo",
   },
   {
