@@ -8,9 +8,10 @@ import Bootstrap from "./icons_img/bootstrap.png";
 import Nodejs from "./icons_img/nodejs.png";
 import React from "./icons_img/react.png";
 import Dart from "./icons_img/dart.png";
-// import Mong from "./icons_img/mongo.png"; 
+import Md from "./icons_img/md.png";
 import Arduino from "./icons_img/arduino.png";
 import Firebase from "./icons_img/firebase.png";
+import Postman from "./icons_img/postman.png";
 
 const techIconsData = [
   {
@@ -71,6 +72,17 @@ const techIconsData = [
     image:
       Firebase,
     name: "Firebase",
+  },
+
+  {
+    image:
+      Md,
+    name: "Md",
+  },
+  {
+    image:
+      Postman,
+    name: "Postman",
   },
 ];
 

@@ -38,21 +38,15 @@ body{
   margin-left: -8px;
 }
 
-.heading
-{
-  background: linear-gradient(90deg, #00F0FF -27.13%, #00FF75 194.94%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-font-family: 'EB Garamond', serif;
-font-family: 'Kanit', sans-serif;
-font-family: 'Lato', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Nunito', sans-serif;
-font-family: 'Oswald', sans-serif;
-font-family: 'Pacifico', cursive;
-font-family: 'Poppins', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
+.heading {
+  background: linear-gradient(90deg, #00F0FF -27.13%, #00FF75 194.94%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Roboto', sans-serif; /* Changed from 'Lato' to 'Roboto' */
+  font-weight: 900; /* Added this line to make the font extra bold */
 }
 
 .type

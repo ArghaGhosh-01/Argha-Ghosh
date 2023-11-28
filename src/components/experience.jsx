@@ -15,7 +15,7 @@ function experience() {
 
   return (
     <div ref={experienceRef} className={`w-auto mx-16 py-5 mt-28 ${isVisible ? 'fade-in' : 'fade-out'}`}>
-     <h2 id="experience" className="text-2xl font-bold mb-4 flex justify-center text-white font-sans heading "> 
+     <h2 id="experience" className="text-2xl font-bold mb-8 flex justify-center text-white font-sans heading "> 
         EXPERIENCES
       </h2>
       <div className="flex justify-center items-center">
@@ -29,7 +29,7 @@ function experience() {
     </linearGradient>
   </defs>
 </svg>
-        <p className="text-white w-64 ml-4 para">
+        <p className="text-white w-64 ml-4 font-mono font-extrabold text-xs">
           Web Designing & Web Development Internship Oasis Infobyte 2023 March - 2023 June 
         </p>
       </div>
@@ -47,7 +47,7 @@ function experience() {
     </linearGradient>
   </defs>
 </svg>
-        <p className="text-white w-64 ml-4 para">
+        <p className="text-white w-64 ml-4 font-mono font-extrabold text-xs">
           Postman Student Expert 
         </p>
       </div>
