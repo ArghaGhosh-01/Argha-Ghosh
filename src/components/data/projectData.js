@@ -23,6 +23,12 @@ const projectData = [
         link: "https://github.com/ArghaGhosh-01/Random-Password-Generator",
         view: "https://github.com/ArghaGhosh-01/Random-Password-Generator",
       },
+    {
+        name: "ANYTHING ANALYTICAL DASHBOARD",
+        description: "An AI powered chat application build using openai which can interact with the help of AI",
+        link: "https://github.com/ArghaGhosh-01/ANYTHING-analytics-dashboard",
+        view: "https://analytics-dashboard-assessment-wine.vercel.app/",
+      },
   ];
   
   export default projectData;
