@@ -16,7 +16,7 @@ const ContactForm = () => {
   return (
     <form
       ref={formRef}
-      action="https://formsubmit.co/YOUR_EMAIL@example.com"
+      action="https://formsubmit.co/argha7417@gmail.com"
       method="POST"
       className={`bg-opacity-50 backdrop-filter backdrop-blur-lg shadow-md px-8 pt-6 pb-8 mb-4 rounded-lg lg:mx-60 card-hover sm:mx-6 mt-10 border card_glow ${isVisible ? 'fade-in' : 'fade-out'}`}
     >
